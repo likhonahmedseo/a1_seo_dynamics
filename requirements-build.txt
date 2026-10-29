@@ -1,0 +1,4 @@
+# Build-only dependencies — needed to produce the .exe but not at runtime.
+# Install with:  pip install -r requirements-build.txt
+pyinstaller>=6.10.0
+Pillow>=11.2.1

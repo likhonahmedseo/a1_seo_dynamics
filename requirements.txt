@@ -1,0 +1,14 @@
+Flask>=3.0.3
+pandas>=2.2.2
+python-dotenv>=1.0.1
+playwright>=1.44.0
+openai>=1.30.0
+waitress>=3.0.0
+requests>=2.32.0
+Werkzeug>=3.0.3
+cryptography>=47.0.0
+pywebview>=6.2.1
+bottle>=0.13.4
+proxy_tools>=0.1.0
+pythonnet>=3.0.5
+clr_loader>=0.2.7,<0.3.0

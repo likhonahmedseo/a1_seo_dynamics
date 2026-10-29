@@ -1,0 +1,80 @@
+# ── Secrets & local config ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+private/
+
+# ── Runtime data (campaign state, attachments, logs) ──────────────────────────
+data/runtime/
+data/attachments/
+logs/
+*.log
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual envs ──────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Test / coverage ───────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# ── Node / Vite (frontend) ────────────────────────────────────────────────────
+client/node_modules/
+client/.vite/
+# Keep client/dist/ in version control so the app runs without `npm run build`.
+# Comment the line below out if you'd rather build on deploy.
+# client/dist/
+
+# ── Playwright ────────────────────────────────────────────────────────────────
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ── PyInstaller / desktop build artifacts ─────────────────────────────────────
+build/
+dist/
+*.spec.bak
+A1SEODynamics.exe
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+release_dist/

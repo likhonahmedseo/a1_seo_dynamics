@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.env
+*.egg-info/
+
+# Node / client build artefacts (frontend is built in-image)
+client/node_modules/
+client/dist/
+
+# Dev / test
+.git/
+dist/
+release_dist/
+vendor/
+tools/
+installer/
+*.spec
+*.bat
+*.command
+*.sh
+
+# Data / logs (mounted as volumes in production)
+data/runtime/
+data/attachments/
+logs/
+
+# Misc
+*.DS_Store
+*.log
+Thumbs.db

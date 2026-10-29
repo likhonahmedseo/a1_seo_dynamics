@@ -1,0 +1,15 @@
+# Web / Docker runtime dependencies.
+# Desktop-only packages (pywebview, pythonnet, clr_loader, bottle, proxy_tools)
+# are intentionally excluded — they are not needed in server/container mode and
+# may fail to install on Linux without additional system libraries.
+#
+# Used by: Dockerfile, start_web_production.sh, start_web_production.bat
+Flask>=3.0.3
+pandas>=2.2.2
+python-dotenv>=1.0.1
+playwright>=1.44.0
+openai>=1.30.0
+waitress>=3.0.0
+requests>=2.32.0
+Werkzeug>=3.0.3
+cryptography>=47.0.0
